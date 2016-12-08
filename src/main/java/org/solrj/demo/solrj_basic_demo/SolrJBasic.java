@@ -32,8 +32,8 @@ public class SolrJBasic {
 	public void addDocument() {
 
 		SolrInputDocument doc = new SolrInputDocument();
-		doc.addField("id", "tsetstst3r4", 1.0f);
-		doc.addField("name", "doc1", 1.0f);
+		doc.addField("id", "5", 1.0f);
+		doc.addField("name", "souro", 1.0f);
 		doc.addField("price", 10);
 		try {
 			solrClient.add(doc);
